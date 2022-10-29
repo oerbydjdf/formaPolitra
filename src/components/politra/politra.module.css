@@ -1,0 +1,51 @@
+.politra {
+    display: flex;
+    gap: 100px;
+}
+.squareColor {
+    height: 54px;
+    width: 54px; 
+    cursor: pointer;
+    position: relative;
+    border-radius: 2px;
+}
+.mainColor {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 17px 25px;
+    width: 310px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+    overflow: auto;
+}
+.del {
+    display: none;
+
+}
+.delActive {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    border: 2px solid white;
+    right: 0px;
+    border-radius: 10px;
+    top: -10px;
+    right: -8px;
+}
+.delActive span {
+    position: absolute;
+    display: block;
+    width: 70%;
+    border: 1px solid wheat;
+}
+.delActive :first-child {
+    transform: rotate(45deg);
+}
+.delActive :last-child {
+    transform: rotate(-45deg);
+}

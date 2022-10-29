@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    margin: 0 0 24px 17px;
+    gap: 38px;
+}
+.link {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+    letter-spacing: -0.408px;
+    text-decoration: none;
+    color: white;
+}
